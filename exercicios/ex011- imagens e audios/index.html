@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mídias</title>
+</head>
+<style>
+    body{
+        background-color: rgb(100, 100, 235);
+    }
+</style>
+<body>
+    <h1>Imagem Dinâmica</h1>
+    <p> Aumente e diminua o tamanho do navegador</p>
+    
+    <picture>
+        <source media="(min-width: 850px)" srcset="imagens/teste-g.jpg" type="image/jpg">
+        <source media="(min-width: 450px)" srcset="imagens/teste-m.jpg" type="image/jpg">
+        <img src="imagens/teste-p.jpg" alt="imagem flexivel">
+    </picture>
+
+    <h1>Audios</h1>
+
+    <audio preload="metadata" autoplay controls >
+        <source src="midia/filipe silva - stairway to heaven.mp3" type="audio/mpeg">
+        <source src="midia/filipe silva - stairway to heaven.ogg" type="audio/ogg">
+        <source src="midia/filipe silva - stairway to heaven.wav" type="audio/wav">
+        <p>Seu navegador não consegue reproduzir o áudio.<a href="midia/filipe silva - stairway to heaven.mp3">Clique aqui para baixá-lo.</a></p>
+    </audio>
+</body>
+</html>
