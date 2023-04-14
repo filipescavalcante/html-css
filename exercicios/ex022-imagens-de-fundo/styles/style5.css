@@ -3,18 +3,30 @@
 body {
     height: 100vh;
     background-color: black;
-    background-image: url('/exercicios/ex022-imagens-de-fundo/images/pattern004.png');
+    background-image: url('/exercicios/ex022-imagens-de-fundo/images/wallpaper002.jpg');
     background-position: center center;
     background-repeat: no-repeat;
     background-size: cover;
+    background-attachment: fixed;
 }
 
 /*
+
+SHORTHAND - backgroud
+
+color image position repeat [size] attachment
+
+o size ta dando problema, então é melhor escrever ele normal
 
 background-size: contain = mostra 100% da imagem sempre
 background-size: cover = a imagem pode ser cortada para se adaptar ao tamanho da tela
 
 */
+
+body {
+    background: black url(/exercicios/ex022-imagens-de-fundo/images/wallpaper002.jpg) center center no-repeat fixed;
+    background-size: cover;
+}
 
 main {
     background-color: white;
