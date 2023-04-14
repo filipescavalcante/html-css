@@ -1,0 +1,33 @@
+@charset "UTF-8";
+
+.bloco {
+    background-image: url(/exercicios/ex022-imagens-de-fundo/images/wallpaper002.jpg);
+    height: 200px;
+    border: 1px solid black;
+    border-radius: 10px;
+    margin: 15px;
+}
+
+#q1 {
+    background-position: left top;
+}
+
+#q2 {
+    background-position: left center;
+}
+
+#q3 {
+    background-position: right bottom;
+}
+
+#q4 {
+    background-position: center center;
+}
+
+/*
+
+divide a imagem em terços
+primeiro valor é a coluna
+segundo valor é a linha
+
+*/

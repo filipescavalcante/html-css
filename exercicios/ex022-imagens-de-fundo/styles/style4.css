@@ -1,0 +1,8 @@
+@charset "UTF-8";
+
+body {
+    height: 98vh;
+    background-repeat: no-repeat;
+    background-image: url(/exercicios/ex022-imagens-de-fundo/images/wallpaper003.jpg);
+    background-position: center center;
+}
