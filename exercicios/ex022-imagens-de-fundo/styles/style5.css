@@ -1,0 +1,27 @@
+@charset "UTF-8";
+
+body {
+    height: 100vh;
+    background-color: black;
+    background-image: url(/exercicios/ex022-imagens-de-fundo/images/wallpaper002.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+/*
+
+background-size: contain = mostra 100% da imagem sempre
+background-size: cover = a imagem pode ser cortada para se adaptar ao tamanho da tela
+
+*/
+
+main {
+    background-color: white;
+    width: 400px;
+    padding: 10px;
+    margin: auto;
+    text-align: justify;
+    border-radius: 10px;
+    box-shadow:5px 5px 10px rgba(0, 0, 0, 0.392);
+}
