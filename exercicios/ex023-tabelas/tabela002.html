@@ -45,6 +45,11 @@
             text-align: right;
         }
 
+        .container {
+            width: 20%;
+            overflow-x: auto;
+        }
+
     </style>
 </head>
 <body>
@@ -62,76 +67,68 @@
                 TR, TH, TD
 
     -->
-    <table>
-        <caption>População das Unidades Federativas do Brasil</caption>
-        <thead>
-            <tr>
-                <th scope="col">Estado</th>
-                <th scope="col">População</th>
-            </tr>
-        </thead>
-
-        <tbody>
-            <tr>
-                <td>São Paulo</td>
-                <td class="num">46 024 937</td>
-            </tr>
-
-            <tr>
-                <td>Minas Gerais</td>
-                <td class="num">20 732 660</td>
-            </tr>
-
-            <tr>
-                <td>Rio de Janeiro</td>
-                <td class="num">16 615 526	</td>
-            </tr>
-
-            <tr>
-                <td>Bahia</td>
-                <td class="num">14 659 023</td>
-            </tr>
-
-            <tr>
-                <td>Paraná</td>
-                <td class="num">11 835 379</td>
-            </tr>
-
-            <tr>
-                <td>Rio Grande do Sul</td>
-                <td class="num">11 088 065</td>
-            </tr>
-            
-            <tr>
-                <td>Pernambuco</td>
-                <td class="num">9 051 113</td>
-            </tr>
-            
-            <tr>
-                <td>Ceará</td>
-                <td class="num">8 936 431	</td>
-            </tr>
-            
-            <tr>
-                <td>Pará</td>
-                <td class="num">8 442 962</td>
-            </tr>
-            
-            <tr>
-                <td>Santa Catarina</td>
-                <td class="num">7 762 154</td>
-            </tr>
-
-        </tbody>
-
-        <tfoot>
-            <tr>
-                <th scope="row">Total de Habitantes</th>
-                <td class="num">150 000 000</td>
-            </tr>
-        </tfoot>
-    </table>
-
-    
+    <div class="container">
+        <table>
+            <caption>População das Unidades Federativas do Brasil</caption>
+            <thead>
+                <tr>
+                    <th scope="col">Estado</th>
+                    <th scope="col">População</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>São Paulo</td>
+                    <td class="num">46 024 937</td>
+                </tr>
+                <tr>
+                    <td>Minas Gerais</td>
+                    <td class="num">20 732 660</td>
+                </tr>
+                <tr>
+                    <td>Rio de Janeiro</td>
+                    <td class="num">16 615 526	</td>
+                </tr>
+                <tr>
+                    <td>Bahia</td>
+                    <td class="num">14 659 023</td>
+                </tr>
+                <tr>
+                    <td>Paraná</td>
+                    <td class="num">11 835 379</td>
+                </tr>
+                <tr>
+                    <td>Rio Grande do Sul</td>
+                    <td class="num">11 088 065</td>
+                </tr>
+        
+                <tr>
+                    <td>Pernambuco</td>
+                    <td class="num">9 051 113</td>
+                </tr>
+        
+                <tr>
+                    <td>Ceará</td>
+                    <td class="num">8 936 431	</td>
+                </tr>
+        
+                <tr>
+                    <td>Pará</td>
+                    <td class="num">8 442 962</td>
+                </tr>
+        
+                <tr>
+                    <td>Santa Catarina</td>
+                    <td class="num">7 762 154</td>
+                </tr>
+            </tbody>
+            <tfoot>
+                <tr>
+                    <th scope="row">Total de Habitantes</th>
+                    <td class="num">150 000 000</td>
+                </tr>
+            </tfoot>
+        </table>
+    </div>
 </body>
 </html>
