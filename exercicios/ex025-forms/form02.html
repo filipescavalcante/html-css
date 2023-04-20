@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forms</title>
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+            background-image: linear-gradient(45deg, orange, yellow);
+            background-attachment: fixed;
+        }
+    </style>
+</head>
+<body>
+    <h1>Teste de Fomrulário</h1>
+
+    <form action="cadastro.php" method="POST" autocomplete="on" target="_blank">
+        <p>
+            <label for="usu">Usuário:</label>
+            <input type="text" name="usu" id="usu" required minlength="5" size="15" placeholder="Username" autocomplete="username">
+        </p>
+
+        <p>
+            <label for="sen">Senha:</label>
+            <input type="password" name="sen" id="sen" required minlength="8" maxlength="20" size="15" placeholder="Min. 8 caracteres" autocomplete="current-password">
+        </p>
+
+        <p>
+           <input type="submit" value="Enviar">
+           <input type="reset" value="Limpar">
+        </p>
+    </form>
+</body>
+</html>
