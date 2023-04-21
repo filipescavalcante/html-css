@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forms</title>
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+            background-image: linear-gradient(45deg, purple, rgb(226, 5, 226));
+            background-attachment: fixed;
+            color: white;
+        }
+    </style>
+</head>
+<body>
+    <h1>Formulários</h1>
+    <form action="cadastro.php" method="GET">
+
+        <fieldset> <!--Usar o mesmo NOME para poder escolher apenas um e desmarcar o outro-->
+            <legend>Sexo</legend>
+            <input type="radio" name="sexo" id="masc" value="M"><label for="masc">Masculino</label>
+            <input type="radio" name="sexo" id="fem" value="F"><label for="fem" >Feminino</label>
+        </fieldset>
+
+        <fieldset>
+            <legend>Esportes Favoritos</legend>
+
+            <input type="checkbox" name="esfut" id="esfut"><label for="esfut">Futebol</label><br>
+            <input type="checkbox" name="esbas" id="esbas"><label for="esbas">Basquete</label><br>
+            <input type="checkbox" name="esvol" id="esvol"><label for="esvol">Volei</label><br>
+            <input type="checkbox" name="esnat" id="esnat"><label for="esnat">Natação</label><br>
+
+        </fieldset>
+
+        <p>
+            <input type="submit" value="Enviar">
+            <input type="reset" value="Limpar">
+        </p>
+
+    </form>
+</body>
+</html>
