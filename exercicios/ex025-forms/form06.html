@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forms</title>
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+            background-image: linear-gradient(45deg, rgb(0, 72, 255), skyblue);
+            background-attachment: fixed;
+            color: white;
+        }
+    </style>
+</head>
+<body>
+    <h1>Formulários</h1>
+
+    <form action="cadastro.php" method="get">
+
+        <p>
+            <label for="cor">Cor:</label>
+            <input type="color" name="cor" id="cor">
+        </p>
+
+        <p>
+            <label for="nivel">Nível de Satisfação:</label>
+            <input type="range" name="nivel" id="nivel">
+        </p>
+
+        <p>
+            <label for="foto">Foto de perfil:</label>
+            <input type="file" name="foto" id="foto">
+        </p>
+
+        <p>
+            <input type="submit" value="Enviar">
+            <input type="reset" value="Limpar">
+        </p>
+
+    </form>
+</body>
+</html>
