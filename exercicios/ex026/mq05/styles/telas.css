@@ -1,0 +1,21 @@
+@charset "UTF-8";
+
+#burger {
+    display: none;
+}
+
+menu {
+    display: block;
+}
+
+menu ul {
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+}
+
+menu li {
+    border: none;
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+}

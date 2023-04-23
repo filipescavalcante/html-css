@@ -27,17 +27,12 @@ header h1 {
     margin-bottom: 20px;
 }
 
-#burguer {
+#burger {
     display: block;
     text-align: center;
     background-color: #182866;
     padding: 10px;
     cursor: pointer;
-}
-
-#burguer:hover {
-    background-color: #7E94EA;
-    color: black;
 }
 
 menu {
@@ -73,7 +68,7 @@ article {
     border-radius: 15px;
     background-color: white;
     box-shadow: 3px 3px 7px rgba(0, 0, 0, 0.379);
-    width: 90vw;
+    width: 95vw;
     max-width: 800px;
 }
 

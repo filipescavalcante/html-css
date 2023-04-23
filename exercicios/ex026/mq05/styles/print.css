@@ -1,0 +1,31 @@
+@charset "UTF-8";
+
+body {
+    font-family: 'Courier New', Courier, monospace;
+}
+
+header {
+    margin: 20px 0;
+}
+
+header h1 {
+    color: black;
+}
+
+#burger {
+    display: none;
+}
+
+menu {
+    display: none;
+}
+
+article {
+    border: 1px solid black;
+    line-height: 2em;
+}
+
+main::after {
+    content: 'Artigo impresso.';
+    margin-top: 15px;
+}
